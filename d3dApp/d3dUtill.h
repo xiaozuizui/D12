@@ -1,5 +1,11 @@
 #pragma once
-#include "stdafx.h"
+//***************************************************************************************
+// d3dUtil.h by Frank Luna (C) 2015 All Rights Reserved.
+//
+// General helper code.
+//***************************************************************************************
+
+#pragma once
 
 #include <windows.h>
 #include <wrl.h>
@@ -20,8 +26,9 @@
 #include <fstream>
 #include <sstream>
 #include <cassert>
-
-
+#include 
+#include "d3dx12.h"
+#include "DDSTextureLoader.h"
 #include "MathHelper.h"
 
 extern const int gNumFrameResources;
@@ -54,6 +61,34 @@ inline std::wstring AnsiToWString(const std::string& str)
 	MultiByteToWideChar(CP_ACP, 0, str.c_str(), -1, buffer, 512);
 	return std::wstring(buffer);
 }
+
+/*
+#if defined(_DEBUG)
+#ifndef Assert
+#define Assert(x, description)                                  \
+{                                                               \
+static bool ignoreAssert = false;                           \
+if(!ignoreAssert && !(x))                                   \
+{                                                           \
+Debug::AssertResult result = Debug::ShowAssertDialog(   \
+(L#x), description, AnsiToWString(__FILE__), __LINE__); \
+if(result == Debug::AssertIgnore)                           \
+{                                                           \
+ignoreAssert = true;                                    \
+}                                                           \
+else if(result == Debug::AssertBreak)           \
+{                                                           \
+__debugbreak();                                         \
+}                                                           \
+}                                                           \
+}
+#endif
+#else
+#ifndef Assert
+#define Assert(x, description)
+#endif
+#endif
+*/
 
 class d3dUtil
 {
