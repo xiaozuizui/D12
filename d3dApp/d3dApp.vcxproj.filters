@@ -27,12 +27,18 @@
     <ClInclude Include="d3dApp.h">
       <Filter>head</Filter>
     </ClInclude>
+    <ClInclude Include="d3d.h">
+      <Filter>head</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="d3dApp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

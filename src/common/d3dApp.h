@@ -72,6 +72,9 @@ protected:
     void LogAdapterOutputs(IDXGIAdapter* adapter);
     void LogOutputDisplayModes(IDXGIOutput* output, DXGI_FORMAT format);
 
+
+
+	///窗口主要信息
 protected:
 
     static D3DApp* mApp;
