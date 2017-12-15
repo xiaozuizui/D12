@@ -36,7 +36,7 @@ public:
 
     bool Get4xMsaaState()const;
     void Set4xMsaaState(bool value);
-
+	¡¤¡¤
 	int Run();
  
     virtual bool Initialize();
