@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "debug", "debug\debug.vcxproj", "{532C5177-3820-4CB5-AA0C-12E624B3508A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytrace", "raytrace\raytrace.vcxproj", "{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{532C5177-3820-4CB5-AA0C-12E624B3508A}.Release|x64.Build.0 = Release|x64
 		{532C5177-3820-4CB5-AA0C-12E624B3508A}.Release|x86.ActiveCfg = Release|Win32
 		{532C5177-3820-4CB5-AA0C-12E624B3508A}.Release|x86.Build.0 = Release|Win32
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Debug|x64.ActiveCfg = Debug|x64
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Debug|x64.Build.0 = Debug|x64
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Debug|x86.Build.0 = Debug|Win32
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Release|x64.ActiveCfg = Release|x64
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Release|x64.Build.0 = Release|x64
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Release|x86.ActiveCfg = Release|Win32
+		{FC2361A4-A579-41F8-A52B-F4BFC18B59E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
