@@ -24,9 +24,15 @@
     <ClCompile Include="Quaternion.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Quaternion.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
       <Filter>head</Filter>
     </ClInclude>
   </ItemGroup>
